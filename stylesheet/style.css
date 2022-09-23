@@ -1,0 +1,70 @@
+*
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    background-color:rgb(231, 231, 184)
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.header {
+    padding: 32px 0;
+    background-color: rgb(206, 30, 30);
+}
+.header-nav a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 24px;
+}
+.header-nav a:hover {
+    color: rgb(118, 226, 118);
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.top {
+    margin: 42px 0;
+}
+.list {
+    background-color: rgb(19, 110, 146);
+    width: 30%;
+    margin: 1.5%;
+    border-radius: 0 5px 5px 0;
+    padding-bottom: 80px;
+
+}
+.ordered-list, .unordered-list, li {
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(231, 231, 184);
+
+}
+
+.image-list {
+    list-style: none inside url(/assets/home.svg);
+    font-size: 20px;
+    color:rgb(240, 165, 73);
+    line-height: 1.9;
+}
+.dt {
+    font-size: 30px;
+}
+.dd {
+    margin: 30px 0;
+}
+.footer {
+    padding: 60px 0;
+    background-color: rgb(15, 32, 13);
+}
+
+
